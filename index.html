@@ -80,11 +80,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The goal of this educational project was to create a distributed (decentralized, peer-to-peer, server independent) chat system for iPad that would work in any Wifi network. The chat uses discovery protocol to locate other users and messages are sent to all clients like in a chat room. Furthermore the transmission of messages is encrypted with RSA small keys.</p>
+<h1>Documentation</h1>
+<p>The complete documentation is located <a href="http://ninthcrow.github.com/distributed-chat">here</a> as a GitHub page.</p>
 <table class="doxtable">
 <tr>
-<th>Note: Part of this documentation is written in German.  </th></tr>
+<th>Note: Part of the documentation is written in German.  </th></tr>
 </table>
-<h1>Credits</h1>
+<p>To update the documentation, checkout the branch gh-pages to html/ inside the master branch. Run doxygen in the root of master and then commit from html/ to gh-pages. </p>
+<pre class="fragment">cd &lt;master branch from repository&gt;
+git clone --branch gh-pages https://github.com/ninthcrow/distributed-chat.git html
+doxygen
+cd html
+git commit -a
+git push origin gh-pages
+</pre><h1>Credits</h1>
 <p>This project is the result of the seminar computer networks of the Institute of Communications Engineering in the University of Ulm, which took place under the tuition of <a href="#" onclick="location.href='mai'+'lto:'+'joa'+'o.'+'fla'+'vi'+'o@g'+'ma'+'il.'+'co'+'m'; return false;">Joao Carneiro</a>, <a href="#" onclick="location.href='mai'+'lto:'+'flo'+'ri'+'an.'+'pr'+'egi'+'ze'+'r@u'+'ni'+'-ul'+'m.'+'de'; return false;">Florian Pregizer</a> and <a href="#" onclick="location.href='mai'+'lto:'+'han'+'s-'+'pet'+'er'+'.gr'+'os'+'sma'+'nn'+'@un'+'i-'+'ulm'+'.d'+'e'; return false;">Prof. Dr. Hans Peter Großmann</a>.</p>
 <h1>General Implementation</h1>
 <p>Every student got a module that they should program. Click on student name to send him an email.</p>
@@ -129,7 +138,7 @@ Module schematic</div></div>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 2 2013 15:55:30 for Distributed Chat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 2 2013 16:38:04 for Distributed Chat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.3.1
 </small></address>
