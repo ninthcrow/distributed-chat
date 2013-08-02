@@ -7,11 +7,23 @@ Wifi network. The chat uses discovery protocol to locate other users and
 messages are sent to all clients like in a chat room.  Furthermore the
 transmission of messages is encrypted with RSA small keys.
 
-<table>
-  <tr>
-    <th>Note: Part of this documentation is written in German.</th>
-  </tr>
-</table>
+Documentation
+=============
+
+The complete documentation is located
+[here](http://ninthcrow.github.com/distributed-chat) as a GitHub page.
+
+To update the documentation, checkout the branch gh-pages to html/ inside the
+master branch. Run doxygen in the root of master and then commit from html/ to
+gh-pages.
+
+    cd <master branch from repository>
+    git clone --branch gh-pages https://github.com/ninthcrow/distributed-chat.git html
+    doxygen
+    cd html
+    git commit -a
+    git push origin gh-pages
+
 
 Credits
 =======
