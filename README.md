@@ -26,7 +26,7 @@ General Implementation
 ======================
 
 Every student got a module that they should program. Click on student name to
-send them a email.
+send him an email.
 
  Module name          | Student                                                | Classes
  -------------------- | ------------------------------------------------------ | ------------------------------------------
@@ -38,7 +38,7 @@ send them a email.
  Network base         | [Joao Carneiro](mailto:joao.flavio@gmail.com)          | TcpOperation, UDP, Block
 
 The modules are connected to each other in this way:
-![Module schematic](schematic.classes.svg)
+![Module schematic](pictures/schematic.modules.png)
 
 The class Application is responsible for organizing the intercommunication
 between the classes, it initiates the instances of the blue classes and store
