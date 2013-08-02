@@ -13,6 +13,12 @@ Documentation
 The complete documentation is located
 [here](http://ninthcrow.github.com/distributed-chat) as a GitHub page.
 
+<table>
+  <tr>
+    <th>Note: Part of the documentation is written in German.</th>
+  </tr>
+</table>
+
 To update the documentation, checkout the branch gh-pages to html/ inside the
 master branch. Run doxygen in the root of master and then commit from html/ to
 gh-pages.
